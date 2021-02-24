@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+// General
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    font-family: "Nunito";
+    // overflow-x: hidden;
+}
+
+
+// Next Images
+.next-image {
+
+
+    img {
+        min-width: unset !important;
+        max-width: unset !important;
+        min-height: unset !important;
+        max-height: unset !important;
+        width: 100%;
+        height: auto;
+    }
+}
