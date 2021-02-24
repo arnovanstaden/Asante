@@ -4,9 +4,9 @@ import ReactPageScroller from 'react-page-scroller';
 // Components
 import Head from "../Components/Head";
 import Landing from "../Components/Landing";
-import ValueProposition from "../Components/ValueProposition";
-
-
+import Proposition from "../Components/Proposition";
+import Values from "../Components/Values";
+import Partnerships from "../Components/Partnerships";
 
 // Styles
 import styles from "../styles/index.module.scss";
@@ -18,7 +18,9 @@ export default function Home() {
       <main>
         <ReactPageScroller>
           <Landing />
-          <ValueProposition />
+          <Proposition />
+          <Values />
+          <Partnerships />
         </ReactPageScroller>
 
       </main>

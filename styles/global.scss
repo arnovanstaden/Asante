@@ -7,13 +7,43 @@ html {
     padding: 0;
     background-color: $white;
     font-family: "Nunito";
-    // overflow-x: hidden;
+    color: $grey;
 }
 
 
+// Container
+
+.container {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    @media (min-width: 1600px) {
+        max-width: 1500px;
+    }
+}
+
 // Next Images
 .next-image {
-
 
     img {
         min-width: unset !important;
