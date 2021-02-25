@@ -54,4 +54,34 @@
             object-position: left center;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+
+        .image {
+            width: 100%;
+            height: unset;
+
+            img {
+                object-position: center center;
+            }
+        }
+
+        .text {
+            width: 100%;
+
+            .item {
+                align-items: center;
+                text-align: center;
+
+                h5 {
+                    flex-direction: row;
+                }
+
+                &:nth-child(2) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }

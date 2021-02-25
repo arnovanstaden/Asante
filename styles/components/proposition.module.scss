@@ -48,4 +48,24 @@
             letter-spacing: 0.5px;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        row-gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &:first-child {
+            margin-bottom: 2rem;
+
+            .circle {
+                order: 2;
+            }
+        }
+
+        .text {
+            order: 1;
+            width: 100%;
+            text-align: center;
+        }
+    }
 }

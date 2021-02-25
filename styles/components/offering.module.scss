@@ -1,12 +1,25 @@
 .image {
     width: 100%;
-    max-height: 100vh;
-    display: flex;
-    justify-content: center;
+
 
     img {
         object-fit: contain;
         max-height: 125vh;
         object-position: center center;
+    }
+
+    @media screen and (max-width:768px) {
+        max-height: unset;
+
+        >div>div {
+            display: none !important;
+        }
+
+        img {
+            max-height: unset;
+            height: 100% !important;
+            width: 100% !important;
+            position: unset;
+        }
     }
 }

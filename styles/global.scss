@@ -52,6 +52,26 @@ h6 {
     }
 }
 
+// Scrollbar
+
+::-webkit-scrollbar {
+    width: 6px;
+
+    &-track {
+        background: $white;
+    }
+
+    &-thumb {
+        background: $blue;
+        transition: 0.4s ease-in-out;
+
+        &:hover {
+            background: $green;
+        }
+    }
+
+}
+
 // Next Images
 .next-image {
 

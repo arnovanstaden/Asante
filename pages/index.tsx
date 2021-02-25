@@ -29,14 +29,14 @@ export default function Home() {
         <Partnerships />
         <Quote
           index={2}
-          text="The highest level of charity is that whereby the donor gives the recipient the wherewithal to become self-supporting"
+          text="The highest level of charity is that whereby the donor gives the recipient the wherewithal to become self-supporting."
           source="- Maimonides -"
         />
         <Approach />
         <Offering />
         <Quote
           index={3}
-          text="The highest level of charity is that whereby the donor gives the recipient the wherewithal to become self-supporting"
+          text="The highest level of charity is that whereby the donor gives the recipient the wherewithal to become self-supporting."
           source="- Maimonides -"
         />
         <Contact />
