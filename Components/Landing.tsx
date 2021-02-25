@@ -6,7 +6,7 @@ export default function Landing() {
     return (
         <section className={styles.landing}>
             <div className={styles.left}>
-                <Image src="/images/sections/landing/landing-right.png" alt="Asante2gether logo" width={500} height={500} />
+                <Image src="/images/sections/landing-right.png" alt="Asante2gether logo" width={500} height={500} />
             </div>
             <div className={styles.center}>
                 <img src="/images/logos/Logo.svg" alt="Asante2gether logo" width={500} height={500} />
@@ -21,7 +21,7 @@ export default function Landing() {
                 </div>
             </div>
             <div className={styles.right}>
-                <Image src="/images/sections/landing/landing-right.png" alt="Asante2gether logo" width={500} height={500} />
+                <Image src="/images/sections/landing-right.png" alt="Asante2gether logo" width={500} height={500} />
             </div>
         </section>
     )

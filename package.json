@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
+    "classnames": "^2.2.6",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-fullpage": "^0.1.19",
     "react-page-scroller": "^2.0.11-beta",
+    "react-scroll-motion": "^0.2.1",
     "sass": "^1.32.8",
     "typeface-nunito": "^1.1.13"
   },

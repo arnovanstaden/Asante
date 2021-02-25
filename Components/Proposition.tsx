@@ -11,8 +11,8 @@ export default function Proposition() {
         <Section
             heading="Our Value Proposition"
             subheading="What we Do"
+            intro={<p className={styles.intro}>To assist local communities to generate <span>income</span>, to find their <span>purpose</span>, and to enable <span>self-sufficiency</span>.</p>}
         >
-            <p className={styles.intro}>To assist local communities to generate <span>income</span>, to find their <span>purpose</span>, and to enable <span>self-sufficiency</span>.</p>
             <div className={styles.row}>
                 <div className={`${styles.circle} ${styles.small}`}>
                     <p>Skills<br />Development</p>
@@ -32,7 +32,6 @@ export default function Proposition() {
                     <p>Sustainable <br />Entrepreneurship</p>
                 </div>
             </div>
-            <h4>We prioritise results that impact communities directly.</h4>
         </Section>
     )
 }
