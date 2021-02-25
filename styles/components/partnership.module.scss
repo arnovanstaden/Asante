@@ -1,1 +1,62 @@
 @import "../variables.scss";
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+        width: 75%;
+
+        &:first-child {
+            text-align: right;
+        }
+
+        h5 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin: 0;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+
+            i {
+                margin-right: 1rem;
+            }
+
+        }
+
+        &:first-child {
+            h5 {
+                flex-direction: row-reverse;
+
+                i {
+                    margin-left: 1rem;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        p {
+            color: $lightgrey;
+            margin: 0;
+        }
+    }
+
+    .image {
+        width: 20%;
+
+        img {
+            transition: 0.4s ease-in-out;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+}

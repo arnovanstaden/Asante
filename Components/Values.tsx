@@ -11,22 +11,20 @@ export default function Proposition() {
         <Section
             heading="Our Values"
             subheading="What we Do"
-            noPadding
-            intro={<p>We <span>prioritise</span> results that <span>impact</span> communities directly</p>}
+            intro={<p>We <span>prioritise</span> results that <span>impact</span> communities directly.</p>}
         >
             <div className={styles.grid}>
                 <div className={styles.text}>
                     <div className={`${styles.item} ${styles.first}`}>
                         <h5>
-                            <i></i>
+                            <i className="bubble"></i>
                             Our Purpose
                         </h5>
                         <p>To give everyone an opportunity to live a life of purpose through meaningful work.</p>
                     </div>
                     <div className={styles.item}>
-
                         <h5>
-                            <i></i>
+                            <i className="bubble"></i>
                             Our Strategic Vision
                         </h5>
                         <p>To continuously create sustainable new jobs.</p>
@@ -34,14 +32,14 @@ export default function Proposition() {
                     <div className={styles.item}>
 
                         <h5>
-                            <i></i>
+                            <i className="bubble"></i>
                             Our Mission
                         </h5>
                         <p>To drive local economic revitalisation.</p>
                     </div>
                 </div>
                 <div className={styles.image}>
-                    <Image src="/images/sections/values.png" alt="Asante2gether logo" width={700} height="auto" />
+                    <Image src="/images/sections/values.png" alt="Asante2gether logo" width={700} height={700} />
                 </div>
             </div>
         </Section >

@@ -1,19 +1,15 @@
 @import "../variables.scss";
 
 .section {
-    min-height: 100vh;
     box-sizing: border-box;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    padding: 6rem;
 
     .heading {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-bottom: 3rem;
 
 
         h1 {
@@ -35,6 +31,7 @@
             font-size: 1.25rem;
             font-weight: 600;
             text-align: center;
+            font-family: $headingfont;
 
             span {
                 color: $green;
@@ -42,8 +39,9 @@
         }
     }
 
-    &.noPadding {
-        padding: 0;
-        padding-top: 2rem;
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

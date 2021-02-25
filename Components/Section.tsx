@@ -1,5 +1,3 @@
-import ClassNames from "classnames";
-
 // Styles
 import styles from "../styles/components/section.module.scss";
 
@@ -8,15 +6,9 @@ interface ISection {
     heading: string;
     subheading: string;
     intro?: React.ReactNode;
-    noPadding?: boolean;
 }
 
 export default function Section(props: ISection) {
-
-    const sectionClasses = ClassNames(
-        styles.section,
-        props.noPadding ? styles.noPadding : null
-    )
 
     const Heading = () => {
         return (
@@ -30,10 +22,12 @@ export default function Section(props: ISection) {
         )
     }
     return (
-        <section className={sectionClasses}>
-            <Heading />
-            <div>
-                {props.children}
+        <section className={styles.section}>
+            <div className="container">
+                <Heading />
+                <div className={styles.content}>
+                    {props.children}
+                </div>
             </div>
         </section>
     )
