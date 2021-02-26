@@ -1,3 +1,5 @@
+import { Slide } from "react-reveal"
+
 // Styles
 import styles from "../styles/components/section.module.scss";
 

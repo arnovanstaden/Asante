@@ -17,6 +17,7 @@
     "react-page-scroller": "^2.0.11-beta",
     "react-parallax": "^3.2.1",
     "react-responsive": "^8.2.0",
+    "react-reveal": "^1.2.2",
     "react-scroll-motion": "^0.2.1",
     "sass": "^1.32.8",
     "typeface-nunito": "^1.1.13",
