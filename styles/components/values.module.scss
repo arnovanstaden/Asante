@@ -45,7 +45,7 @@
         width: 50%;
         display: flex;
         justify-content: center;
-        height: 60vh;
+        max-height: 60vh;
 
         img {
             width: 100% !important;
@@ -57,9 +57,10 @@
 
     @media screen and (max-width: 768px) {
         flex-direction: column-reverse;
+        align-items: center;
 
         .image {
-            width: 100%;
+            width: 60%;
             height: unset;
 
             img {
@@ -82,6 +83,12 @@
                     margin-right: 0;
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .image {
+            width: 90%;
         }
     }
 }
