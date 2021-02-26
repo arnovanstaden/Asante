@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Parallax } from 'react-parallax';
+import { Roll } from "react-reveal"
 
 // Styles
 import styles from "../styles/components/quote.module.scss";
@@ -14,11 +15,13 @@ export default function Quote({ index, text, source }) {
     return (
         <Parallax strength={250} bgImage={`/images/sections/quote${index}.webp`} bgImageAlt="Children's Hands">
             <section className={styles.quote}>
-                <div className={styles.circle}>
-                    <i className="icon-quotes-left"></i>
-                    <p className={styles.text}>{text}</p>
-                    <p className={styles.source}>{source}</p>
-                </div>
+                <Roll bottom>
+                    <div className={styles.circle}>
+                        <i className="icon-quotes-left"></i>
+                        <p className={styles.text}>{text}</p>
+                        <p className={styles.source}>{source}</p>
+                    </div>
+                </Roll>
             </section>
         </Parallax>
     )

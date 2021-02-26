@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Roll, Slide } from "react-reveal"
 
 // Components
 import Section from "./Section";
@@ -14,23 +15,34 @@ export default function Proposition() {
             intro={<p className={styles.intro}>To assist local communities to generate <span>income</span>, to find their <span>purpose</span>, and to enable <span>self-sufficiency</span>.</p>}
         >
             <div className={styles.row}>
-                <div className={`${styles.circle} ${styles.small}`}>
-                    <p>Skills<br />Development</p>
-                </div>
+                <Roll bottom>
+                    <div className={`${styles.circle} ${styles.small}`}>
+                        <p>Skills<br />Development</p>
+                    </div>
+                </Roll>
                 <div className={styles.text}>
                     <h3>We do this through</h3>
                 </div>
-                <div className={`${styles.circle} ${styles.small}`}>
-                    <p>Job <br />Creation <br />Initiatives</p>
-                </div>
+                <Roll bottom>
+
+                    <div className={`${styles.circle} ${styles.small}`}>
+                        <p>Job <br />Creation <br />Initiatives</p>
+                    </div>
+                </Roll>
             </div>
             <div className={styles.row}>
-                <div className={`${styles.circle} ${styles.big}`}>
-                    <p>Economic <br />Transformation</p>
-                </div>
-                <div className={`${styles.circle} ${styles.big}`}>
-                    <p>Sustainable <br />Entrepreneurship</p>
-                </div>
+                <Roll bottom>
+
+                    <div className={`${styles.circle} ${styles.big}`}>
+                        <p>Economic <br />Transformation</p>
+                    </div>
+                </Roll>
+                <Roll bottom>
+
+                    <div className={`${styles.circle} ${styles.big}`}>
+                        <p>Sustainable <br />Entrepreneurship</p>
+                    </div>
+                </Roll>
             </div>
         </Section>
     )

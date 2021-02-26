@@ -1,4 +1,4 @@
-import { Slide } from "react-reveal"
+import { Fade } from "react-reveal"
 
 // Styles
 import styles from "../styles/components/section.module.scss";
@@ -16,7 +16,9 @@ export default function Section(props: ISection) {
         return (
             <header className={styles.heading}>
                 <div>
-                    <h1>{props.subheading}</h1>
+                    <Fade top>
+                        <h1>{props.subheading}</h1>
+                    </Fade>
                     <h2>{props.heading}</h2>
                 </div>
                 {props.intro}
