@@ -22,7 +22,7 @@ export default function Proposition() {
                                 <i className="bubble"></i>
                             Our Purpose
                         </h5>
-                            <p>To give everyone an opportunity to live a life of purpose through meaningful work.</p>
+                            <p>To create opportunities for a life of purpose through meaningful work.</p>
                         </div>
                         <div className={styles.item}>
                             <h5>

@@ -12,7 +12,7 @@ export default function ValueProposition() {
         <Section
             heading="Strategic Partnerships"
             subheading="Success Through"
-            intro={<p>Asante2gether recognises that the solutions to South Africa’s skills shortage lies in the creation of strategic partnerships in which each partner leverages their <span>strengths and resources</span> to create a <span>holistic ecosystem of support</span>. To this end, Asante2gether is proud to partner with the following companies to ensure seamless <span>selection, delivery and impact</span>.</p>}
+            intro={<p>Asante2gether recognises that the solution to South Africa’s skills shortage lies in the creation of strategic partnerships in which each partner leverages their <span>strengths and resources</span> to create a <span>holistic ecosystem of support</span>. To this end, Asante2gether is proud to partner with the following companies to ensure seamless <span>selection, delivery and impact</span>.</p>}
         >
             <div className={styles.grid}>
                 <Fade left>

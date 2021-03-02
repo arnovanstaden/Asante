@@ -99,15 +99,16 @@
         }
     }
 
-    @media screen and (max-width:768px) {}
 
     @media screen and (max-width:576px) {
         .circle {
-            width: 100%;
-            height: auto;
-            border-radius: 0;
-            max-height: unset;
+            max-height: 100vh;
             max-width: 100vw;
+            width: 100%;
+            height: 100vh;
+            border-radius: 0;
+            box-sizing: border-box;
+
 
             img {
                 margin-top: 0;

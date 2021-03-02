@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Roll, Slide } from "react-reveal"
+import { Roll, Slide } from "react-reveal";
+import axios from "axios"
 
 // Components
 import Section from "./Section";
@@ -10,7 +11,26 @@ import styles from "../styles/components/contact.module.scss"
 export default function Contact() {
 
     const submitContactForm = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        let data = {}
+        const form = document.getElementById("contact-form") as HTMLFormElement;
+        const formData = new FormData(form);
+        formData.forEach((value, key) => data[key] = value);
+
+        axios({
+            method: "POST",
+            url: "https://getform.io/f/4fbcb412-43a3-4d8c-af68-61450c235831",
+            data: data
+        })
+            .then(result => {
+                if (result.status === 200) {
+                    form.reset();
+                    return alert("Thank you for your message. We'll get back to you soon!")
+                } else {
+                    return alert("There seems to be a problem sending your message. Please send us your enquiry via email.")
+                }
+            })
+            .catch(error => console.log(error))
     }
 
 

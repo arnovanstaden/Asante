@@ -22,7 +22,7 @@ export default function Approach() {
                         <div className={styles.row}>
                             <div className={styles.circle}>
                                 <div><p>1</p></div>
-                                <p>Entrepreneur</p>
+                                <p>Technician</p>
                             </div>
                             <div className={styles.circle}>
                                 <div><p>2</p></div>
@@ -30,7 +30,7 @@ export default function Approach() {
                             </div>
                             <div className={styles.circle}>
                                 <div><p>3</p></div>
-                                <p>Technician</p>
+                                <p>Entrepreneur</p>
                             </div>
                         </div>
                     </Roll>

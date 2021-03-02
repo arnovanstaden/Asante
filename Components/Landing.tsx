@@ -19,9 +19,9 @@ export default function Landing() {
                             <Fade left cascade duration={3000}>
                                 <p>Income</p>
                                 <i className="bubble"></i>
-                                <p>Self-sufficiency</p>
-                                <i className="bubble"></i>
                                 <p>Purpose</p>
+                                <i className="bubble"></i>
+                                <p>Self-sufficiency</p>
                             </Fade>
                         </div>
                     </div>
