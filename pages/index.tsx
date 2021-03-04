@@ -36,8 +36,8 @@ export default function Home() {
         <Offering />
         <Quote
           index={3}
-          text="The highest level of charity is that whereby the donor gives the recipient the wherewithal to become self-supporting."
-          source="- Maimonides -"
+          text="Education is the most powerful weapon which you can use to change the world."
+          source="- Nelson Mandela -"
         />
         <Contact />
       </main>

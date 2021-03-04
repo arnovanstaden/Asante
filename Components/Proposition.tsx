@@ -32,13 +32,11 @@ export default function Proposition() {
             </div>
             <div className={styles.row}>
                 <Roll bottom>
-
                     <div className={`${styles.circle} ${styles.big}`}>
                         <p>Economic <br />Transformation</p>
                     </div>
                 </Roll>
                 <Roll bottom>
-
                     <div className={`${styles.circle} ${styles.big}`}>
                         <p>Sustainable <br />Entrepreneurship</p>
                     </div>
