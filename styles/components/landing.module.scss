@@ -3,7 +3,6 @@
 .landing {
     min-height: 100vh;
     display: flex;
-    column-gap: 1rem;
     justify-content: center;
     align-items: center;
 
@@ -85,7 +84,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            column-gap: 1rem;
             margin-top: 1rem;
 
             p {
@@ -95,6 +93,10 @@
                 font-weight: 700;
                 font-family: $headingfont;
                 text-align: center;
+            }
+
+            i {
+                margin: 0 0.75rem;
             }
         }
     }
@@ -116,7 +118,10 @@
 
             .words {
                 flex-direction: column;
-                row-gap: 1rem;
+
+                i {
+                    margin: 0.75rem 0;
+                }
             }
         }
     }
